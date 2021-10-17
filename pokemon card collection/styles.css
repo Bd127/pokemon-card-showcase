@@ -1,0 +1,260 @@
+body {
+   background-image: linear-gradient(red,white);
+}
+.grid {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+    .red{
+    height:400px;
+    width:280px;
+    border-radius: 10px;
+    background-color: darkred;
+    border:solid black 2px;
+    margin-right:10px;
+    margin-top:10px;
+}
+        .red:hover {
+            animation: b 0.5s linear;
+            height: 450px;
+            width: 330px;
+        }
+
+@keyframes b {
+    20% {
+        transform: translateY(-6px);
+    }
+
+    40% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(-2px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+}
+.spell {
+    height: 400px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: solid black 2px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+    .spell:hover {
+        animation: b 0.5s linear;
+        height: 450px;
+        width: 330px;
+    }
+
+@keyframes b {
+    20% {
+        transform: translateY(-6px);
+    }
+
+    40% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(-2px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+}
+.green {
+    height: 400px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: green;
+    border: solid black 2px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+    .green:hover {
+        animation: b 0.5s linear;
+        height: 450px;
+        width: 330px;
+    }
+
+@keyframes b {
+    20% {
+        transform: translateY(-6px);
+    }
+
+    40% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(-2px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+}
+.blue {
+    height: 400px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: blue;
+    border: solid black 2px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+    .blue:hover {
+        animation: b 0.5s linear;
+        height: 450px;
+        width: 330px;
+    }
+
+@keyframes b {
+    20% {
+        transform: translateY(-6px);
+    }
+
+    40% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(-2px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+}
+.yellow {
+    height: 400px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: solid black 2px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+    .yellow:hover {
+        animation: b 0.5s linear;
+        height: 450px;
+        width: 330px;
+    }
+
+@keyframes b {
+    20% {
+        transform: translateY(-6px);
+    }
+
+    40% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(-2px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+}
+.grey {
+    height: 400px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: darkgray;
+    border: solid black 2px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+    .grey:hover {
+        animation: b 0.5s linear;
+        height: 450px;
+        width: 330px;
+    }
+
+@keyframes b {
+    20% {
+        transform: translateY(-6px);
+    }
+
+    40% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(-2px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+}
+.pink {
+    height: 400px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: deeppink;
+    border: solid black 2px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+    .pink:hover {
+        animation: b 0.5s linear;
+        height: 450px;
+        width: 330px;
+    }
+
+@keyframes b {
+    20% {
+        transform: translateY(-6px);
+    }
+
+    40% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(-2px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+}
+.top{
+    display:flex;
+    flex-direction:row;
+}
+.lv {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.name{
+   margin-left:60px;
+}
+.middle {
+    height: 50%;
+    width: 100%;
+}
+.power{
+    display:flex;
+    justify-content:center;
+}
+.evo{
+    margin-top:5px;
+    height:50px;
+    width:50px;
+    margin-left:5px;
+    border-radius:100%;
+}
